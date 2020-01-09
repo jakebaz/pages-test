@@ -1,0 +1,65 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Trajan Pro;
+	text-align: center;
+	font-weight: bold;
+	color: #D3E7E5;
+	background-color: #777777;
+}
+
+body:before {
+	content: "";
+	position: absolute;
+  	left: 0; right: 0;
+  	top: 0; bottom: 0;
+  	background: rgba(0,0,0,.5);
+  	z-index: -1;
+}
+
+a {
+	text-decoration: underline;
+	color: #D3E7E5;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #f4f4f4;
+}
+
+ul {
+	list-style: none;
+	padding-right: 20px;
+}
+
+li {
+	display: inline;
+	padding-right: 20px;
+}
+
+.center {
+	padding-top: 25px;
+	position: center;
+	top: 50%;
+	left: 50%;
+	height: 200px;
+}
+
+input {
+	width: 40%;
+}
+
+textarea {
+	width: 40%;
+	height: 50%;
+}
+
+h5 {
+	font-size: 15px;
+}
+
+
+.form-submit p {
+	color: #ff000098;
+}
